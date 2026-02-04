@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Carving Fun|About Us</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css ">
+<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.min.css">
+</head>
+        <body>
+            <section class="sub-header">
+                <nav>
+                    <a href="index.html"><img src ="Images/logo.png"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Homepage</a></li>
+                            <li><a href="About.html">About Us</a></li>
+                            <li><a href="Kits.html">Kits</a></li>
+                            <li><a href="Learning.html">Learning</a></li>
+                            <li><a href="Gallery.html">Gallery</a></li>
+                        </ul>
+                    </div><i class="fa fa-bars"onclick="showMenu()"></i>
+                </nav>
+            </section>
+<!--Whatever-->
+<section class="Incourgement">
+    <h1>Ignite your passion for learning</h1>
+    <p></p>
+    <div class="row">
+
+        <div class="Incourgement-col">
+            <h3>Where To Begin</h3>
+            <p>Begin your carving adventure here with<br> courses tought by professional carvers.</p>
+        </div>
+
+        <div class="Incourgement-col">
+            <h3>Develop Your Skills</h3>
+            <p>Develop your carving to the next level<br> with people around the globe</p>
+        </div>
+
+        <div class="Incourgement-col">
+            <h3>Share Your Work</h3>
+            <p>Beuty is in the eye of the beholder as they say<br> share your experince and art.</p>
+        </div>
+    </div>
+</section>
+<!---Learning--->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Where To Begin</h1>
+
+            <p>
+                You must be new to carving. You might have even bought the tools. However without guidence, carving can be especially dangerous. 
+                We hope you have taken the precoutions needed. To help you on your journey and protect you from possible mistakes you might make we advise you take a look at our 
+                site in Skillshare! 
+            </p>
+            <div class="buttons">
+            <button id="buttonG"onclick="myFunction()">Don't Wait</button>
+        </div>
+        </div>
+        <div class="about-col">
+            <img src="Images/where.jpg">
+        </div> 
+    </div>
+    <div class="row">
+        <div class="about-col">
+            <h1>Develop Your Skills</h1>
+
+            <p>
+                As a veteran carver, you might think that you have learned everything. However carving is a very general term, discovering new techniqes, mastering different kinds of whittling and cutting we promise you won't leave with dissapointment. Come visit our youtube channel where we make all kinds of woodcraft! 
+            </p>
+            <div class="buttons">
+            <button id="buttonG"onclick="myFunction()">Better Yourself</button>
+            </div>
+        </div>
+        <div class="about-col">
+            <img src="Images/master.jpg">
+        </div> 
+    </div>
+    <div class="row">
+        <div class="about-col">
+            <h1>Share Your Work</h1>
+
+            <p>
+                If you are a aspiring wood artist, we welcome you to share your work and join our community. You can join competions and compete with people all over the world. Even if you haven't become famous yet, contact us! We will help support you. Come visit our gallery, find insparation and take advice by the creators themselves!
+                    <div class="buttons">
+            <button id="buttonG"  onclick="visitPage()">Go To Gallery</button>
+            </div>
+            </p>
+            
+        </div>
+        <div class="about-col">
+            <img src="Images/i.png">
+        </div> 
+        
+    </div>
+</section>
+<!---Footer--->
+                <div id="specialdivison">
+                     Sample text
+                </div>
+            <section class="footer">
+                
+                <h4>About Us</h4>
+                <p>Carving Fun Community Website is a privately owned website. All trademarks belong to
+                their respective owners. <br> @1999-2022 Carving Fun</p>
+                <dic class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </dic>
+
+            </section>
+
+
+            
+ <!----JavaScript Toggle---->
+            <script>
+                var navLinks=document.getElementById("navLinks");
+                function showMenu(){
+                    navLinks.style.right="0";
+                }
+                function hideMenu(){
+                    navLinks.style.right ="-200px";
+                }
+                function myFunction(){
+                    alert("Alert from javascript!")
+                }
+                function visitPage(){
+        window.location='Gallery.html';
+    }
+            </script>
+        </body> 
+</html>
