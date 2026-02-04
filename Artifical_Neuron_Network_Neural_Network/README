@@ -1,0 +1,4 @@
+This project implements a simple artificial neural network (ANN) from scratch using NumPy.
+The code defines an ANN class with manually implemented feedforward, sigmoid activation, MSE loss, and backpropagation without external ML libraries. 
+Randomized synthetic features such as height, weight, eye color, and hair color are created to simulate inputs. 
+Before training, a separate manual forward pass is demonstrated, then the ANN is trained until the error drops below a threshold.
