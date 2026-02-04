@@ -1,0 +1,6 @@
+This Python script demonstrates a very simple, manually constructed neural-network–like classifier 
+that predicts gender based on physical attributes such as height, weight, eye color, and hair color It uses randomly generated weights and
+biases with sigmoid activation functions and repeatedly retries until it correctly classifies a tiny training dataset.
+
+After a “successful” configuration is found, the model is tested on fixed test data and then on completely random input values,
+printing all intermediate calculations for transparency and learning purposes.
