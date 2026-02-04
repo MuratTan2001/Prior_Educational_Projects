@@ -1,0 +1,5 @@
+This project implements classic search algorithms to solve the 8-puzzle problem.
+The State class represents the puzzle board, tracks the blank tile, and generates valid moves.
+Node stores the search tree structure and reconstructs the solution path.
+Problem defines initial and goal states, while BFS, DFS, and IDS explore the state space differently.
+The final section runs all algorithms on the same puzzle and prints comparative results.
