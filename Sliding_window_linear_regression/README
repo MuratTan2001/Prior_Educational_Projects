@@ -1,0 +1,8 @@
+This code implements a complete machine learning pipeline to predict a target variable from indoor sensor data using linear regression.
+The dataset is read from an Excel file, converted to CSV, split into training, validation, and test sets, and standardized before modeling.
+A sliding window approach is applied to capture temporal dependencies, and model performance is evaluated using R², MAE, and residual analysis plots.
+The explanation first focuses on how the data is imported, cleaned, and organized into meaningful input, output, and auxiliary columns.
+It then describes the use of scaling and a sliding window technique to transform time-series data into a supervised learning format 
+suitable for linear regression.
+Finally, it explains how the model is trained, evaluated on multiple datasets, and analyzed through residual plots and statistical 
+measures to assess prediction quality and error distribution.
